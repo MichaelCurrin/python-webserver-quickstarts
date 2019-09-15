@@ -1,2 +1,2 @@
-# webserver-quickstarts-python
-Quickstart webserver scripts for various Python frameworks
+# Webserver Quickstarts - Python
+> Quickstart webserver scripts for various Python frameworks
