@@ -73,26 +73,20 @@ Links:
 
 - [Home - tornadoweb.org](https://www.tornadoweb.org/en/stable/index.html#) including quickstart.
 
+## Requirements
+
+
+- Python >= 3.6
+
 
 ## Installation
 
-Note: This instructions to install and run for a Linux and Mac environments.
+Note: This instructions to install and run for a Linux and macOS environments.
 
 
-Required:
+Follow this guide to install/update Python and install project dependencies in a new virtual environment using [requirements.txt](/requirements.txt) file.
 
-- Python 3.6+
-
-Follow this guide to install/update Python and install project dependencies - [Setup A Python3 Virtual Environment](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7).
-
-
-Instructions which were followed to create the base Django project, before customizing it:
-
-```bash
-$ django-admin startproject <TARGET_DIRECTORY>
-$ d <TARGET_DIRECTORY>
-$ python manage.py startapp hello
-```
+- [Setup A Python3 Virtual Environment](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7).
 
 
 ## Run
@@ -152,3 +146,12 @@ For Django, you also get an admin view.
 
 See also this site which includes tutorials for Python webserver frameworks - [fullstackpython.com/web-frameworks.html](https://www.fullstackpython.com/web-frameworks.html).
 
+
+
+There are the instructions which were followed to create the base Django project initially, before customizing it. So this can be used for 
+
+```bash
+$ django-admin startproject <TARGET_DIRECTORY>
+$ d <TARGET_DIRECTORY>
+$ python manage.py startapp hello
+```
