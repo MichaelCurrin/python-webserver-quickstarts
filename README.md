@@ -43,7 +43,9 @@ Links:
 
 ### Django
 
-* An opinionated framework that is built to handle a database, templating, admin view and auth. Much heavier than Flask so not 
+* An opinionated framework that is built to handle a database, templating, admin view and auth without installing further libraries yourself.
+* Django is not powerful but complex so not beginner-friendly. 
+* Additional Django libaries are available as replacements to handle things like GraphQL or Ecommerce.
 
 Links:
 
