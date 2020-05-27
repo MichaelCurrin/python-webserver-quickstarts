@@ -12,7 +12,7 @@ def hello():
     Handle GET request on the root path and return greeting.
     
     This will pick 'name' from query parameters.
-        e.g. http://localhost:5000/?name=Visitor
+        e.g. http://localhost:5000/?name=Foo
     """
     name = request.args.get("name", "World")
     
