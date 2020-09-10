@@ -153,7 +153,7 @@ See also this site which includes tutorials for Python webserver frameworks - [f
 There are the instructions which were followed to create the base Django project initially, before customizing it. So this can be used for 
 
 ```bash
-$ django-admin startproject <TARGET_DIRECTORY>
-$ d <TARGET_DIRECTORY>
+$ django-admin startproject hello_app
+$ cd hello_app
 $ python manage.py startapp hello
 ```
