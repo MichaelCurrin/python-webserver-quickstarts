@@ -128,7 +128,7 @@ Run a server using one of the commands below. Note that most of the files are ex
     $ python manage.py help
     ```
 
-Press CTRL+C when you want to stop the server.
+Press <kbd>CTRL</kbd>+<kbd>C</kbd> when you want to stop the server.
 
 
 ### View
@@ -145,9 +145,7 @@ For Django, you also get an admin view.
 
 ## Resources
 
-
 See also this site which includes tutorials for Python webserver frameworks - [fullstackpython.com/web-frameworks.html](https://www.fullstackpython.com/web-frameworks.html).
-
 
 
 There are the instructions which were followed to create the base Django project initially, before customizing it. So this can be used for 
@@ -157,3 +155,8 @@ $ django-admin startproject hello_app
 $ cd hello_app
 $ python manage.py startapp hello
 ```
+
+
+## License
+
+Released under [MIT](/LICENSE).
