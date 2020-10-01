@@ -2,8 +2,8 @@
 """
 Django's command-line utility for administrative tasks.
 """
-import os
-import sys
+import os         # we import os 
+import sys        # we import sys 
 
 
 def main():
