@@ -36,7 +36,7 @@ The scripts in this repo mostly come from quickstart guides on the official docs
 
 Links:
 
-* [Docs](https://flask.palletsprojects.com/en/master/)
+* [Flasks docs](https://flask.palletsprojects.com/en/master/) home
 * [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
 * [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
 
