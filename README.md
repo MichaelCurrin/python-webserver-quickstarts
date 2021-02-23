@@ -164,9 +164,11 @@ For Django, you also get an admin view.
 See also this site which includes tutorials for Python webserver frameworks - [fullstackpython.com/web-frameworks.html](https://www.fullstackpython.com/web-frameworks.html).
 
 
-There are the instructions which were followed to create the base Django project initially, before customizing it. So this can be used for 
+There instructions were followed to create the base Django project initially, before customizing it. Run these to get a fresh app setup.
 
 ```bash
+$ pip install django
+
 $ django-admin startproject hello_app
 $ cd hello_app
 $ python manage.py startapp hello
