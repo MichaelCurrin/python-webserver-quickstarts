@@ -28,15 +28,31 @@ The idea is to cover a mixture of approaches.
 
 The scripts in this repo mostly come from quickstart guides on the official docs or blog tutorials.
 
+Whatever framework you choose, you can use it for your hobby or production app but you'll probably want to setup a load balanced like Nginx in front of it. The frameworks tend to recommend this in your docs. 
+
+You might also want to reduce resources by implementing caching one of these:
+
+- Database queries (reduce load on database).
+- Endpoint or page responses (reduce load on Python app).
+- Nnginx cache settings.
+- Add AWs CloudFront with caching.
 
 ### Flask
 
 * A micro-framework with this light and easy to extend with your own code or Flask extensions (separate libraries).
 * Great for beginners.
+* Build a backend API - handle and return requests typically using RESTful GET and POST endpoints and JSON data.
+* Build a templating app
+    * Use a database on the backend and HTML on the frontend.
+    * Use the Liquid / Jinja templating engine to read HTML templates and render them using loops and reusable "macros" (functions defined as Liquid).
+* Handles connecting to a database like SQLite, MySQL or Postgres. For larger projects, you might want to install a package that you choose as your database ORM - like SQLAlchemy or SQLObject.
 
 Links:
 
-* [Flasks docs](https://flask.palletsprojects.com/en/master/) home
+* [Flasks docs](https://flask.palletsprojects.com/en/master/) homepage
+* [Define and Access the Database](https://flask.palletsprojects.com/en/master/tutorial/database/) tutorial on Flask docs.
+    > The application will use a SQLite database to store users and posts. Python comes with built-in support for SQLite in the sqlite3 module.
+* [Flask - SQLite](https://www.tutorialspoint.com/flask/flask_sqlite.htm) tutorial on Tutorials Point.
 * [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
 * [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
 
