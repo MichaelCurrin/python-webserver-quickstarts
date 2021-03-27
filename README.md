@@ -1,6 +1,17 @@
 # Python Webserver Quickstarts
 > Run a "Hello World" webserver in a selection of Python frameworks
 
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/python-webserver-quickstarts?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/python-webserver-quickstarts/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Made with Python](https://img.shields.io/badge/Python->=3.6-blue?logo=python&logoColor=white)](https://python.org)
+
+[![dependency - flask](https://img.shields.io/badge/dependency-flask-blue)](https://pypi.org/project/flask)
+[![dependency - django](https://img.shields.io/badge/dependency-django-blue)](https://pypi.org/project/django)
+[![dependency - cherrypy](https://img.shields.io/badge/dependency-cherrypy-blue?logo=vue.js&logoColor=white)](https://pypi.org/project/cherrypy)
+[![dependency - tornado](https://img.shields.io/badge/dependency-tornado-blue)](https://pypi.org/project/tornado)
+
+
 This project includes short scripts for basic webservers in various frameworks. These can be used as references for comparison or interest. They can also be run, after installing server-specific dependencies.
 
 
@@ -56,7 +67,6 @@ Links:
 * [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
 * [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
 
-
 ### Django
 
 * An opinionated framework that is built to handle a database, templating, admin view and auth without installing further libraries yourself.
@@ -73,10 +83,9 @@ Links:
 * [Hello World App](https://djangoforbeginners.com/hello-world/) on Django For Beginners site
 * [Run Django without a database](http://www.librador.com/2011/05/23/How-to-run-Django-tests-without-a-database/)
 
-
 ### CherryPy
 
-Not as famous as Flask but it is similar and from some research it is supposed to be faster too.
+Not as famous as Flask, but it is similar and from some research it is supposed to be faster too.
 
 Links:
 
@@ -84,15 +93,14 @@ Links:
 * [Tutorials](https://docs.cherrypy.org/en/latest/tutorials.html#)
 * [Configure](https://docs.cherrypy.org/en/latest/config.html)
 
-
 ### Tornado
 
 Links:
 
 - [Home - tornadoweb.org](https://www.tornadoweb.org/en/stable/index.html#) including quickstart.
 
-## Requirements
 
+## Requirements
 
 - Python >= 3.6
 
@@ -138,7 +146,7 @@ Run a server using one of the commands below. Note that most of the files are ex
     ```
 - Django
     ```bash
-    $ django_hello_world
+    $ cd django_hello_world
     $ python manage.py runserver 5000
     $ # For help on available commands:
     $ python manage.py help
@@ -152,7 +160,6 @@ Press <kbd>CTRL</kbd>+<kbd>C</kbd> when you want to stop the server.
 View the hello world response in the browser.
 
 - http://localhost:5000/
-
 
 For Django, you also get an admin view.
 
@@ -177,4 +184,4 @@ $ python manage.py startapp hello
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
