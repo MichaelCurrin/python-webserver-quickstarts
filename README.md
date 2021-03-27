@@ -1,4 +1,4 @@
-# Python Webserver Quickstarts
+# Python Web server Quickstarts
 > Run a "Hello World" webserver in a selection of Python frameworks
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/python-webserver-quickstarts?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/python-webserver-quickstarts/releases/)
@@ -13,7 +13,7 @@
 
 The library badges above will take you to PyPi if you click them.
 
-This project includes short scripts for basic webservers in various frameworks. These can be used as references for comparison or interest. They can also be run, after installing server-specific dependencies.
+This project includes short scripts for basic web servers in various frameworks. These can be used as references for comparison or interest. They can also be run, after installing server-specific dependencies.
 
 
 ## Purpose
@@ -23,7 +23,7 @@ This project includes short scripts for basic webservers in various frameworks. 
 - Optionally update it locally to see what changes, like adding an endpoint.
 
 
-### Approaches
+## Approaches
 
 The idea is to cover a mixture of approaches.
 
@@ -40,13 +40,13 @@ The idea is to cover a mixture of approaches.
 
 The scripts in this repo mostly come from quickstart guides on the official docs or blog tutorials.
 
-Whatever framework you choose, you can use it for your hobby or production app but you'll probably want to setup a load balanced like Nginx in front of it. The frameworks tend to recommend this in your docs. 
+Whatever framework you choose, you can use it for your hobby or production app but you'll probably want to setup a load balanced like Nginx in front of it. The frameworks tend to recommend this in your docs.
 
 You might also want to reduce resources by implementing caching one of these:
 
 - Database queries (reduce load on database).
 - Endpoint or page responses (reduce load on Python app).
-- Nnginx cache settings.
+- Nginx cache settings.
 - Add AWs CloudFront with caching.
 
 ### Flask
@@ -61,28 +61,28 @@ You might also want to reduce resources by implementing caching one of these:
 
 Links:
 
-* [Flasks docs](https://flask.palletsprojects.com/en/master/) homepage
-* [Define and Access the Database](https://flask.palletsprojects.com/en/master/tutorial/database/) tutorial on Flask docs.
+- [Flasks docs](https://flask.palletsprojects.com/en/master/) homepage
+- [Define and Access the Database](https://flask.palletsprojects.com/en/master/tutorial/database/) tutorial on Flask docs.
     > The application will use a SQLite database to store users and posts. Python comes with built-in support for SQLite in the sqlite3 module.
-* [Flask - SQLite](https://www.tutorialspoint.com/flask/flask_sqlite.htm) tutorial on Tutorials Point.
-* [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
-* [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
+- [Flask - SQLite](https://www.tutorialspoint.com/flask/flask_sqlite.htm) tutorial on Tutorials Point.
+- [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
+- [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
 
 ### Django
 
-* An opinionated framework that is built to handle a database, templating, admin view and auth without installing further libraries yourself.
-* Django is not powerful but complex so not beginner-friendly. 
-* Additional Django libaries are available as replacements to handle things like GraphQL or Ecommerce.
+- An opinionated framework that is built to handle a database, templating, admin view and auth without installing further libraries yourself.
+- Django is not powerful but complex so not beginner-friendly.
+- Additional Django libraries are available as replacements to handle things like GraphQL or ecommerce.
 
 Links:
 
-* [Home - djangoproject.com](https://djangoproject.com)
-* [Getting started](https://www.djangoproject.com/start/) official guide
-* [Django Hello World](https://pythonprogramminglanguage.com/django-hello-world/) guide. This was used to create the app in this project.
-* [Starting a Django project](https://realpython.com/django-setup/#create-an-app)
-* [Django REST](https://www.django-rest-framework.org/tutorial/quickstart/) tutorial
-* [Hello World App](https://djangoforbeginners.com/hello-world/) on Django For Beginners site
-* [Run Django without a database](http://www.librador.com/2011/05/23/How-to-run-Django-tests-without-a-database/)
+- [Home - djangoproject.com](https://djangoproject.com)
+- [Getting started](https://www.djangoproject.com/start/) official guide
+- [Django Hello World](https://pythonprogramminglanguage.com/django-hello-world/) guide. This was used to create the app in this project.
+- [Starting a Django project](https://realpython.com/django-setup/#create-an-app)
+- [Django REST](https://www.django-rest-framework.org/tutorial/quickstart/) tutorial
+- [Hello World App](https://djangoforbeginners.com/hello-world/) on Django For Beginners site
+- [Run Django without a database](http://www.librador.com/2011/05/23/How-to-run-Django-tests-without-a-database/)
 
 ### CherryPy
 
@@ -90,9 +90,9 @@ Not as famous as Flask, but it is similar and from some research it is supposed 
 
 Links:
 
-* [Home - cherrypy.org](https://cherrypy.org/)
-* [Tutorials](https://docs.cherrypy.org/en/latest/tutorials.html#)
-* [Configure](https://docs.cherrypy.org/en/latest/config.html)
+- [Home - cherrypy.org](https://cherrypy.org/)
+- [Tutorials](https://docs.cherrypy.org/en/latest/tutorials.html#)
+- [Configure](https://docs.cherrypy.org/en/latest/config.html)
 
 ### Tornado
 
@@ -130,14 +130,6 @@ Run a server using one of the commands below. Note that most of the files are ex
     ```bash
     $ ./no_framework_hello_world.py
     ```
-- CherryPy
-    ```bash
-    $ ./cherrypy_hello_world.py
-    ```
-- Tornado
-    ```bash
-    $ ./tornado_hello_world.py
-    ```
 - Flask
     ```bash
     $ # Recommended way.
@@ -152,9 +144,19 @@ Run a server using one of the commands below. Note that most of the files are ex
     $ # For help on available commands:
     $ python manage.py help
     ```
+- CherryPy
+    ```bash
+    $ cd cherrypy_hello_world
+    $ hello_world/main.py
+
+    $ multiple_endpoints/main.py
+    ```
+- Tornado
+    ```bash
+    $ ./tornado_hello_world.py
+    ```
 
 Press <kbd>CTRL</kbd>+<kbd>C</kbd> when you want to stop the server.
-
 
 ### View
 
