@@ -51,13 +51,13 @@ You might also want to reduce resources by implementing caching one of these:
 
 ### Flask
 
-* A micro-framework with this light and easy to extend with your own code or Flask extensions (separate libraries).
-* Great for beginners.
-* Build a backend API - handle and return requests typically using RESTful GET and POST endpoints and JSON data.
-* Build a templating app
-    * Use a database on the backend and HTML on the frontend.
-    * Use the Liquid / Jinja templating engine to read HTML templates and render them using loops and reusable "macros" (functions defined as Liquid).
-* Handles connecting to a database like SQLite, MySQL or Postgres. For larger projects, you might want to install a package that you choose as your database ORM - like SQLAlchemy or SQLObject.
+- A micro-framework with this light and easy to extend with your own code or Flask extensions (separate libraries).
+- Great for beginners.
+- Build a backend API - handle and return requests typically using RESTful GET and POST endpoints and JSON data.
+- Build a templating app.
+    - Use a database on the backend and HTML on the frontend.
+    - Use the Liquid / Jinja templating engine to read HTML templates and render them using loops and reusable "macros" (functions defined as Liquid).
+- Handles connecting to a database like SQLite, MySQL or Postgres. For larger projects, you might want to install a package that you choose as your database ORM - like SQLAlchemy or SQLObject.
 
 Links:
 
