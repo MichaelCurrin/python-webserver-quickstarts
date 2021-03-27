@@ -8,9 +8,10 @@
 
 [![dependency - flask](https://img.shields.io/badge/dependency-flask-blue)](https://pypi.org/project/flask)
 [![dependency - django](https://img.shields.io/badge/dependency-django-blue)](https://pypi.org/project/django)
-[![dependency - cherrypy](https://img.shields.io/badge/dependency-cherrypy-blue?logo=vue.js&logoColor=white)](https://pypi.org/project/cherrypy)
+[![dependency - cherrypy](https://img.shields.io/badge/dependency-cherrypy-blue)](https://pypi.org/project/cherrypy)
 [![dependency - tornado](https://img.shields.io/badge/dependency-tornado-blue)](https://pypi.org/project/tornado)
 
+The library badges above will take you to PyPi if you click them.
 
 This project includes short scripts for basic webservers in various frameworks. These can be used as references for comparison or interest. They can also be run, after installing server-specific dependencies.
 
