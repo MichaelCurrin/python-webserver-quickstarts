@@ -61,12 +61,19 @@ You might also want to reduce resources by implementing caching one of these:
 
 Links:
 
-- [Flasks docs](https://flask.palletsprojects.com/en/master/) homepage
-- [Define and Access the Database](https://flask.palletsprojects.com/en/master/tutorial/database/) tutorial on Flask docs.
-    > The application will use a SQLite database to store users and posts. Python comes with built-in support for SQLite in the sqlite3 module.
-- [Flask - SQLite](https://www.tutorialspoint.com/flask/flask_sqlite.htm) tutorial on Tutorials Point.
-- [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) guide
-- [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
+- Flask docs
+   - [Homepage](https://flask.palletsprojects.com/en/master/) 
+   - [Tutorals](https://flask.palletsprojects.com/en/master/tutorial/) in the Flask docs
+   - [Define and Access the Database](https://flask.palletsprojects.com/en/master/tutorial/database/) tutorial on Flask docs.
+       > The application will use a SQLite database to store users and posts. Python comes with built-in support for SQLite in the sqlite3 module.
+- Tutorials
+   - [Retrieving HTML From data using Flask](https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/) tutorial - return data as HTML with `render_template`.
+   - [Flask - SQLite](https://www.tutorialspoint.com/flask/flask_sqlite.htm) tutorial on Tutorials Point.
+   - [Tutorials point](https://www.tutorialspoint.com/flask/) - including guides for routing, templates, sessions, static files, redirects and more.
+- [flask-json](https://flask-json.readthedocs.io/en/latest/) library's docs.
+- Flask RESTful library.
+   - [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) docs.
+   - [Tutorial: Building a RESTful API with Flask](https://kite.com/blog/python/flask-restful-api-tutorial/)
 
 ### Django
 
